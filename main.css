@@ -1,0 +1,79 @@
+html{
+}
+
+body{
+    background-color: #fdf1f3;
+}
+
+
+.nav-link{
+    color: #F47983;
+}
+
+.nav-link:hover{
+    color: #ee2b3b;
+}
+
+.active_b{
+    color: #ee2b3b;
+}
+
+h1{
+    font-family: "East Sea Dokdo", sans-serif;
+    font-size: 30px !important;
+}
+
+a{
+    font-family: "Sawarabi Mincho", sans-serif;
+    text-decoration: none;
+
+}
+
+p{
+    font-family: "Sawarabi Mincho", sans-serif;
+}
+
+.navbar{
+    background-color: #fcdde0;
+}
+
+.navbar p{
+    color: #F47983;
+}
+
+.navbar a{
+    color: #ee2b3b;
+}
+
+.modal-header .modal-title {
+    text-align: center;
+    width: 100%;
+    font-size: 40px !important;
+ }
+
+.modal-content{
+    color: Black !important;
+}
+
+.button_1 {
+
+}
+
+.modal-body form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.modal-body form .button {
+    margin-top: 20px;
+    border: 2px solid;
+    text-align: center;
+    margin: auto;
+    padding: 8px 40px;
+
+    font-size: 16px;
+    cursor: pointer;
+    background-color: White;
+ }
+
