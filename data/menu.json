@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1",
+    "title": "Peasant Set",
+    "vendor_code": "peasant_set",
+    "description": "Simple yet incredibly delicious, this set reflects the spirit of Japanese tradition.",
+    "price": 1600,
+    "img": "../web_project_2.0/images/product_1.png"
+  },
+  {
+    "id": "2",
+    "title": "Shogun Set",
+    "vendor_code": "shogun_set",
+    "description": "A luxurious set fit for a great ruler.",
+    "price": 3200,
+    "img": "../web_project_2.0/images/product_2.png"
+  },
+  {
+    "id": "3",
+    "title": "Samurai Set",
+    "vendor_code": "samurai_set",
+    "description": "A perfect choice for those who appreciate tradition and harmony.",
+    "price": 2400,
+    "img": "../web_project_2.0/images/product_3.png"
+  },
+  {
+    "id": "4",
+    "title": "Ninja Roll Collection",
+    "vendor_code": "ninja_roll_collection",
+    "description": "A mysterious and sophisticated set.",
+    "price": 1100,
+    "img": "../web_project_2.0/images/product_4.png"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Daimyo Feast",
+    "vendor_code": "daimyo_feast",
+    "description": "A luxurious set worthy of a Japanese feudal lord. ",
+    "price": 4200,
+    "img": "../web_project_2.0/images/product_5.png"
+  },
+  {
+    "id": "6",
+    "title": "Ronin Set",
+    "vendor_code": "ronin_set",
+    "description": "For those who value freedom of choice and independence.",
+    "price": 4000,
+    "img": "../web_project_2.0/images/product_6.png"
+  },
+  {
+    "id": "7",
+    "title": "Bamboo Spirit",
+    "vendor_code": "bamboo_spirit",
+    "description": "Inspired by the freshness of Japanese forests.",
+    "price": 700,
+    "img": "../web_project_2.0/images/product_7.png"
+  },
+  {
+    "id": "8",
+    "title": "Hikari Harmony",
+    "vendor_code": "hikari_harmony",
+    "description": "Experience the gentle warmth of traditional Japan with 'Hikari Harmony.'",
+    "price": 500,
+    "img": "../web_project_2.0/images/product_8.png"
+  },
+  {
+    "id": "9",
+    "title": "Kyoto Comfort",
+    "vendor_code": "kyoto_comfort",
+    "description": "A refined combination creates a harmony of flavors reminiscent of cozy evenings in Kyoto.",
+    "price": 800,
+    "img": "../web_project_2.0/images/product_9.png"
+  }
+]

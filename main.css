@@ -1,79 +1,268 @@
-html{
-}
+/*
+font-family: "Sawarabi Mincho", sans-serif;
+font-family: "East Sea Dokdo", sans-serif;
+color: #fdf1f3;
+color: #fcdde0;
+color: #F47983;
+color: #ee2b3b;
+*/
 
-body{
+
+/* Общий стиль */
+body {
     background-color: #fdf1f3;
 }
 
-
-.nav-link{
-    color: #F47983;
-}
-
-.nav-link:hover{
-    color: #ee2b3b;
-}
-
-.active_b{
-    color: #ee2b3b;
-}
-
-h1{
+h1, h2, h3, h4 {
     font-family: "East Sea Dokdo", sans-serif;
-    font-size: 30px !important;
 }
 
-a{
+a, p {
     font-family: "Sawarabi Mincho", sans-serif;
     text-decoration: none;
-
 }
 
-p{
-    font-family: "Sawarabi Mincho", sans-serif;
+
+/* Общий bootstrap */
+.nav-link {
+    color: #F47983;
+    cursor: pointer;
 }
 
-.navbar{
+.nav-link:hover {
+    color: #ee2b3b;
+}
+
+.active_b {
+    color: #ee2b3b !important;
+}
+
+/* Main content */
+.main-content h1{
+    font-size: 40px;
+}
+
+.main-content h2{
+    font-size: 30px;
+}
+
+.main-content h3{
+    font-size: 25px;
+}
+
+.main-content a{
+    color: #ee2b3b;
+}
+
+.main-content h1, .main-content h2 {
+    margin-left: 25px;
+}
+
+.main-content p, .main-content a {
+    margin-left: 5px;
+}
+
+/* Navbar */
+.navbar {
     background-color: #fcdde0;
 }
 
-.navbar p{
+/* Navbar-up */
+.navbar-up{
+    font-family: "East Sea Dokdo", sans-serif;
+    font-size: 30px;
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+}
+
+/* Dropdown menu */
+.dropdown-menu{
+    background-color: #fdf1f3;
+    --bs-dropdown-border-color: rgba(238, 43, 59, .45);
+    --bs-dropdown-link-hover-bg: #fcdde0;
+    --bs-dropdown-link-hover-color: #ee2b3b;
+}
+
+.navbar-nav .nav-link.show {
+    color: #ee2b3b;
+}
+
+.dropdown-item {
     color: #F47983;
 }
 
-.navbar a{
+/* Navbar-down*/
+.navbar-down{
+    font-family: "Sawarabi Mincho", sans-serif;
+}
+
+.navbar-down a{
     color: #ee2b3b;
+}
+
+.navbar-down p{
+    color: #F47983;
+}
+
+/* Списки */
+ol[type="A"] {
+    font-family: "East Sea Dokdo", sans-serif;
+    font-size: 25px;
+}
+
+ol[type="1"] {
+    font-family: "Sawarabi Mincho", sans-serif;
+    font-size: 15px;
+}
+
+/* Модальное окно */
+
+.modal {
+    --bs-modal-bg: #fdf1f3;
+    --bs-modal-header-border-color: #F47983;
+    --bs-modal-border-color: #F47983;
 }
 
 .modal-header .modal-title {
     text-align: center;
     width: 100%;
     font-size: 40px !important;
- }
-
-.modal-content{
-    color: Black !important;
 }
 
-.button_1 {
+.modal-header + .modal-body {
+    border-top: 1px solid #F47983;
+}
+
+.modal-content {
+    font-family: "Sawarabi Mincho", sans-serif;
+    color: #ee2b3b;
+}
+
+.form-control, .form-select {
+    color: #ee2b3b;
+    --bs-border-color: #F47983;
+}
+
+.form-control:focus {
+    border-color: #ee2b3b;
+    box-shadow: 0 0 0 .25rem rgba(238, 43, 59, .45);
+}
+
+.form-select:focus {
+    border-color: #ee2b3b;
+    box-shadow: 0 0 0 .25rem rgba(238, 43, 59, .45);
+}
+
+.form-check-input:checked {
+    background-color: #ee2b3b;
+    border-color: #ee2b3b;
+}
+
+.form-check-input:focus {
+    border-color: #ee2b3b;
+    box-shadow: 0 0 0 .25rem rgba(238, 43, 59, .45);
+}
+
+.btn-primary{
+    --bs-btn-bg: #ee2b3b;
+    --bs-btn-border-color: #ee2b3b;
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:#F47983;
+    --bs-btn-hover-border-color: #fcdde0;
+
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F47983;
+    --bs-btn-active-border-color: #fcdde0;
+}
+
+/* Таблица */
+table h1{
+    font-family: "East Sea Dokdo", sans-serif;
+    color: #ee2b3b;
+}
+
+table p{
+    font-family: "Sawarabi Mincho", sans-serif;
+    color: #F47983;
+}
+
+table a{
+    color:#ee2b3b;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 3px solid #fcdde0;
+    color: #F47983 !important;
+}
+
+
+/* Старое Меню */
+.menu-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Новое меню */
+.carousel-caption-custom {
+      position: absolute;
+      transform: translate(-50%, -50%);
+}
+
+.carousel {
+    margin-top: 80px; /* Отступ сверху */
+    margin-bottom: 80px; /* Отступ снизу */
+}
+
+.carousel-caption-custom h3 {
+      font-size: 3vw;
+      color: #fff;
+      margin: 0;
 
 }
 
-.modal-body form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.carousel-caption-custom p {
+      font-size: 1.2vw;
+      color: #ddd;
+      margin: 0;
+}
 
-.modal-body form .button {
-    margin-top: 20px;
-    border: 2px solid;
-    text-align: center;
-    margin: auto;
-    padding: 8px 40px;
+.menu_right{
+    text-align: right !important;
+}
 
-    font-size: 16px;
-    cursor: pointer;
-    background-color: White;
- }
+.menu_left{
+    text-align: left !important;
+}
 
+.highlighted {
+  cursor: default;
+}
+
+.highlighted h3{
+  color: #ee2b3b !important;
+}
+
+.highlighted p{
+  color: #F47983 !important;
+}
+
+/*
+font-family: "Sawarabi Mincho", sans-serif;
+font-family: "East Sea Dokdo", sans-serif;
+color: #fdf1f3;
+color: #fcdde0;
+color: #F47983;
+color: #ee2b3b;
+*/
