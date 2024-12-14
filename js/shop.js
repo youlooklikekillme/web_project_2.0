@@ -1,5 +1,5 @@
 async function getResponce() {
-    let response = await fetch("../data/menu.json");
+    let response = await fetch("../web_project_2.0/data/menu.json");
     let content = await response.json();
     content = content.slice(0, 9);
 
