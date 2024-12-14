@@ -29,9 +29,6 @@
           <a class="navbar-up nav-link" href="../web_project_2.0/menu.html">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="navbar-up nav-link" data-bs-toggle="modal" data-bs-target="#order_modal">Order</a>
-        </li>
-        <li class="nav-item">
           <a class="navbar-up nav-link" data-bs-toggle="modal" data-bs-target="#recall_modal">Recall</a>
         </li>
         <li class="nav-item">
@@ -78,75 +75,6 @@
   </div>
 </nav>
 <!-- Нижний навбар -->
-
-<!-- Order -->
-<div class="modal fade" id="order_modal" >
-  <div class="modal-dialog modal-dialog-centered modal-lg ">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5">Order</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body text-start">
-        <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-            <input type="hidden"  name="q" value="order">
-
-            <div class="mb-3">
-            <label for="first_name" class="form-label">Name</label>
-            <input type="text" class="form-control" name="first_name" id="first_name" value="Matvey">
-          </div>
-          <div class="mb-3">
-            <label for="delivery_address" class="form-label">Delivery Address</label>
-            <input type="text" class="form-control" name="delivery_address" id="delivery_address" value="st.Kostina 1v">
-          </div>
-          <div class="mb-3">
-            <label for="set_to_choise" class="form-label">Set You Want to Order</label>
-            <select class="form-select" name="set_to_choise" id="set_to_choise">
-              <option value="set_samurai">Seth Samurai</option>
-              <option value="set_shogun">Seth Shogun</option>
-              <option value="set_peasant">Seth the Peasant</option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="quantity_of_set" class="form-label">Number of Sets</label>
-            <input type="number" class="form-control" name="quantity_of_set" id="quantity_of_set" value="0">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Number of Instrument Sets</label>
-            <div>
-              <input class="form-check-input me-1" type="radio" name="number_cutlery" value="1" checked>1
-              <input class="form-check-input me-1" type="radio" name="number_cutlery" value="2">2
-              <input class="form-check-input me-1" type="radio" name="number_cutlery" value="3">3
-              <input class="form-check-input me-1" type="radio" name="number_cutlery" value="4">4
-              <input class="form-check-input me-1" type="radio" name="number_cutlery" value="5">5
-            </div>
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Additives</label>
-            <div>
-              <input class="form-check-input me-1" type="checkbox" name="addition" value="chopsticks" checked>Chopsticks
-              <input class="form-check-input me-1" type="checkbox" name="addition" value="soy_sauce">Soy sauce
-              <input class="form-check-input me-1" type="checkbox" name="addition" value="wasabi">Wasabi
-              <input class="form-check-input me-1" type="checkbox" name="addition" value="pickled_ginger">Pickled ginger
-            </div>
-          </div>
-          <div class="mb-3">
-            <label for="data_of_order" class="form-label">Day to Receive Order</label>
-            <input type="date" class="form-control" name="data_of_order" id="data_of_order" value="2024-11-06">
-          </div>
-          <div class="mb-3">
-            <label for="promotional_code" class="form-label">Promo Code</label>
-            <input type="password" class="form-control" name="promotional_code" id="promotional_code">
-          </div>
-          <div class="d-grid justify-content-center">
-            <button type="submit" class="btn btn-primary w-auto">Send</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Order -->
 
 <!-- Recall -->
 <div class="modal fade" id="recall_modal">

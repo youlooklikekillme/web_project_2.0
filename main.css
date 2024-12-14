@@ -77,6 +77,13 @@ a, p {
     font-size: 20px;
 }
 
+/*#fcdde0;*/
+
+.navbar-toggler {
+    border: 1px solid #F47983;
+    color:#F47983;
+}
+
 /* Dropdown menu */
 .dropdown-menu{
     background-color: #fdf1f3;
@@ -120,7 +127,6 @@ ol[type="1"] {
 /* Модальное окно */
 
 .modal {
-    --bs-modal-bg: #fdf1f3;
     --bs-modal-header-border-color: #F47983;
     --bs-modal-border-color: #F47983;
 }
@@ -131,18 +137,8 @@ ol[type="1"] {
     font-size: 40px !important;
 }
 
-.modal-header + .modal-body {
-    border-top: 1px solid #F47983;
-}
-
 .modal-content {
     font-family: "Sawarabi Mincho", sans-serif;
-    color: #ee2b3b;
-}
-
-.form-control, .form-select {
-    color: #ee2b3b;
-    --bs-border-color: #F47983;
 }
 
 .form-control:focus {
@@ -256,6 +252,36 @@ table a{
 
 .highlighted p{
   color: #F47983 !important;
+}
+
+/* Заказ */
+.discription-block {
+    width: 200px;
+    height: 150px;
+}
+
+.order-block{
+    width: 300px;
+    height: 550px;
+    border: 1px solid #F47983 !important;
+    border-radius: 12px;
+}
+
+.order-block input{
+    border-radius: 4px;
+    border: 1px solid #000 !important;
+}
+
+.cart-order input{
+    width:200px;
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+    flex: 1 1 33.33%;
+    max-width: 300px;
+    margin: 10px;
+}
 }
 
 /*
